@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "image": "https://img.buzzfeed.com/buzzfeed-static/static/2013-12/campaign_images/webdr01/15/16/the-definitive-ranking-of-43-characters-on-lost-1-17084-1387142892-3_big.jpg",
+        "name": "Sawyer"
+    },
+    {
+        "id": 2,
+        "image": "https://vignette.wikia.nocookie.net/lost/images/a/a4/Sayid_Jarrah_.jpg/revision/latest?cb=20051226210300",
+        "name": "Sayid"
+    },
+    {
+        "id": 3,
+        "image": "https://readingwriting4eva.files.wordpress.com/2013/02/jack_shephard_5_1600x12002.jpg",
+        "name": "Jack"
+    },
+    {
+        "id": 4,
+        "image":"https://qph.fs.quoracdn.net/main-qimg-2e574a010bfc414e25a87e9ea85c9cd5" ,
+        "name": "Locke"
+    },
+    {
+        "id": 5,
+        "image": "http://www.vinegeek.com/wp-content/uploads/2010/04/Lost_Hurley.jpg",
+        "name": "Hurley"
+    },
+    {
+        "id": 6,
+        "image": "http://3.bp.blogspot.com/_1I7KiCuAU4k/S5sDeMIl6EI/AAAAAAAAFhU/BfZAiURoH48/s400/lost_kate_austen_evangeline_lilly.jpg",
+        "name": "Kate"
+    },
+    {
+        "id": 7,
+        "image": "https://dvdbash.files.wordpress.com/2012/04/lost_henry_ian_cusick_desmond_hume_dvdbash_302.jpg",
+        "name": "Desmond"
+    },
+    {
+        "id": 8,
+        "image":"https://1.bp.blogspot.com/-oWSfrU6YlSY/WZx5Hdm7IdI/AAAAAAAAJnw/tL12iAA_hqQK4T_0IaxSmjv_lqDVAuLbwCLcBGAs/s1600/ben.jpg",
+        "name": "Ben"
+    },
+    {
+        "id": 9,
+        "image": "https://i.pinimg.com/736x/e3/aa/9d/e3aa9d2f8dda7d15d49a9bf097261a5e--charlie-pace-portrait-photo.jpg",
+        "name": "Charlie"
+    },
+    {
+        "id": 10,
+        "image": "https://i.pinimg.com/originals/ae/12/b1/ae12b1c4848d53611aeeaa3f86180a6b.jpg",
+        "name": "Claire"
+    },
+    {
+        "id": 11,
+        "image": "https://i.pinimg.com/originals/37/ed/92/37ed92cfb683639f61237d83526d55cf.jpg",
+        "name": "Sun"
+    },
+    {
+        "id": 12,
+        "image": "https://vignette.wikia.nocookie.net/lostpedia/images/9/9f/JinS6.jpg/revision/latest?cb=20100403074841",
+        "name": "Jin"
+    }
+    
+]
