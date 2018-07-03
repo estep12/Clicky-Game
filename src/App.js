@@ -11,10 +11,10 @@ import './App.css';
 class App extends Component {
 
   state = {
+    cards: cards,
     picked: [],
     correct: 0,
-    topscore: 0,
-    message: 'Click an image to begin'
+    topscore: 0
   };
 
 
@@ -22,7 +22,13 @@ class App extends Component {
     return (
       <div>
         <Nav></Nav>
-        <Header></Header>
+        <main className="container">
+        {this.state.cards.map((cards) => (
+          <div key={cards.id} className="image-holder" onClick={this.imageClick} clicked={this.state.clicked}>
+            <img src={cards.image} alt={cards.name}/>
+          </div>
+        ))}
+        </main>
       </div>
     );
   }
