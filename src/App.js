@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Nav from './components/Nav'
-// import Header from './components/Header'
-import LostCards from './components/LostCards'
 import cards from "./cards.json"
 import './App.css';
 
@@ -14,22 +11,22 @@ class App extends Component {
     cards: cards,
     correct: 0,
     topScore: 0,
-    clicked: false,
-    headline: "Click and image to begin!"
+    headline: "Click an image to begin!"
   };
 
-  imageClick = (event) => {
-    event.preventDefault;
-    if(this.state.clicked === false) {
-    console.log(event.target.key)
-    this.setState({headline: "You Guessed Correctly!"});
-    this.setState({score: this.state.correct +1});
-    this.setState({topScore: this.state.topScore +1})
-    this.setState({clicked: true});
+  imageClick = event => {
+    
+    console.log(event.target.id)
 
+    // clicked.push(event.target.id)
+
+    if(clicked.includes(event.target.id)) {
+      this.setState({headline: "You Guessed Incorrectly"})
     }
     else {
-      this.setState({headline: "You Guessed Incorrectly"})
+      this.setState({headline: "You Guessed Correctly!"});
+      this.setState({correct: this.state.correct +1});
+      this.setState({topScore: this.state.topScore +1})
     }
   }
 
@@ -45,7 +42,7 @@ class App extends Component {
 
         <main className="container">
         {this.state.cards.map((cards) => (
-          <div key={cards.id} className="image-holder" onClick={this.imageClick} clicked={this.state.clicked}>
+          <div key={cards.id} className="image-holder" onClick={this.imageClick} >
             <img src={cards.image} alt={cards.name}/>
           </div>
         ))}
